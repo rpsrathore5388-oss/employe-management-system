@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+*{
+  color: #fcfcfc;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body{
+  background-color: #121212;
+}
+
+.task-list::-webkit-scrollbar{
+  display: none;
+}
+
+#all-task::-webkit-scrollbar{
+  display: none;
+}
+
+.textBlue{
+  color: #2563eb;
+}
+.textYellow{
+  color: #facc15;
+}
+.textGreen{
+  color: #43a047;
+}
+.textRed{
+  color: #dc2626;
+}
+
+button {
+  cursor: pointer;
+}
